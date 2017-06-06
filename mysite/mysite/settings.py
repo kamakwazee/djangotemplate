@@ -24,7 +24,7 @@ SECRET_KEY = '^bvonuqt*sw&e&g%g9y@1_#8c06yz9omv_5g74p+#p(@6ckv+c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [u'ubuntupuppet1440.cloudapp.net']
 
 
 # Application definition
@@ -118,3 +118,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
